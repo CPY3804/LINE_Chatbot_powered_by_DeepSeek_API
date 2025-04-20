@@ -5,7 +5,7 @@ Feature：
   1. LINE Developers創立官方帳號，利用message API取得 CHANNEL SECRET 與 CHANNEL ACCESS TOKEN。
   2. 依據顯卡選擇適合的 DeepSeek model：DeepSeek-R1-Distill-Qwen-7B。
   3. 選擇後端Cloudflare、Ngrok。
-  4. 
+     
 Tech Stack：
   - python 3.11.11
   - anaconda
