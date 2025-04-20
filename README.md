@@ -2,9 +2,17 @@
 Introduction：用Ai輔助，在本地架設deepseek model，或是用API的LINE聊天機器人，之後可以依據需求加上回答特定問題或建立AI背景。
 
 Feature：
+  本地架設
   1. LINE Developers創立官方帳號，利用message API取得 CHANNEL SECRET 與 CHANNEL ACCESS TOKEN。
   2. 依據顯卡選擇適合的 DeepSeek model：DeepSeek-R1-Distill-Qwen-7B。
-  3. 選擇後端Cloudflare、Ngrok。
+  3. 運行後端Cloudflare、Ngrok。
+  4. 成本是顯卡，之後運行不用花錢。
+
+  使用api
+  1.  LINE Developers創立官方帳號，利用message API取得 CHANNEL SECRET 與 CHANNEL ACCESS TOKEN。
+  2.  DeepSeek公開平台拿到Authtoken。
+  3.  運行後端。
+  4.  不需要高階顯卡，成本只有所使用的token。
      
 Tech Stack：
   - python 3.11.11
